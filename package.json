@@ -6,11 +6,12 @@
   "main": "index.js",
   "author": "brybalicious courtesy Stefan Malzner <stefan@adlk.io>",
   "license": "MIT",
+  "repository": "https://github.com/brybalicious/recipe-blenderchat.git",
   "config": {
-    "serviceURL": "https://{teamId}.chat",
+    "serviceURL": "https://blender.chat",
     "hasNotificationSound": true,
-    "hasCustomUrl": true,
-    "hasTeamId": true,
-    "urlInputSuffix": ".chat"
+    "hasCustomUrl": false,
+    "hasTeamId": false,
+    "message": "The hangout place for Blenderheads. blender.chat is an independent chat server created to help the Blender community to communicate in real-time. blender.chat is part of blender.community"
   }
 }
