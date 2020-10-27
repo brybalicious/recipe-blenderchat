@@ -1,16 +1,16 @@
 {
-  "id": "rocketchat",
-  "name": "Rocket.Chat",
+  "id": "blenderchat",
+  "name": "Blender.Chat",
   "version": "1.0.7",
-  "description": "Rocket.Chat",
+  "description": "Blender.Chat",
   "main": "index.js",
-  "author": "Stefan Malzner <stefan@adlk.io>",
+  "author": "brybalicious courtesy Stefan Malzner <stefan@adlk.io>",
   "license": "MIT",
   "config": {
-    "serviceURL": "https://{teamId}.rocket.chat",
+    "serviceURL": "https://{teamId}.chat",
     "hasNotificationSound": true,
     "hasCustomUrl": true,
     "hasTeamId": true,
-    "urlInputSuffix": ".rocket.chat"
+    "urlInputSuffix": ".chat"
   }
 }
